@@ -1,0 +1,64 @@
+button
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: aqua;
+padding: 10px 15px;
+border: 2px solid #000;
+cursor: pointer;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background:-webkit-linear-gradient(top, #a3a3a3, #000);
+background:-moz-linear-gradient(top, #a3a3a3, #000);
+background: linear-gradient(top, #a3a3a3, #000);
+-webkit-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+-moz-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+button:hover
+{
+background: -webkit-linear-gradient(top, #FF3399 , #FFFF99);
+background: -moz-linear-gradient(top, #FF3399 , #FFFF99);
+background: linear-gradient(top,#FF3399 , #FFFF99);
+}
+button:active
+{
+background: -webkit-linear-gradient(top, #FF6600, #CC66FF);
+background: -moz-linear-gradient(top, #FF6600, #CC66FF);
+background: linear-gradient(top, #FF6600, #CC66FF);
+}
+/*Свойства прямоугольника, содержащего шкалу и стрелку*/
+#stage
+{
+width: 1000px;
+height: 200px;
+position: relative;
+}
+/*Свойства шкалы*/
+#scale
+{
+width: 860px;
+height: 100px;
+position: absolute;
+top: 50px;
+left: 0px;
+background-image: url(../images/scale.png);
+}
+/*Свойства стрелки*/
+#arrow
+{
+width: 40px;
+height: 110px;
+position: absolute;
+top: 0px;
+left: 0px;
+background-image: url(../images/arrow.png);
+/*Transition*/
+-webkit-transition: left 0.5s ease-out 0s;
+-moz-transition: left 0.5s ease-out 0s;
+transition: left 0.5s ease-out 0s;
+}
