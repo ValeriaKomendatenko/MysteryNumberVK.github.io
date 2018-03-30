@@ -56,7 +56,7 @@ height: 110px;
 position: absolute;
 top: 0px;
 left: 0px;
-background-image: url('images/arrow.png');
+background-image: url('arrow.png');
 /*Transition*/
 -webkit-transition: left 0.5s ease-out 0s;
 -moz-transition: left 0.5s ease-out 0s;
